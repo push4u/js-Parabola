@@ -1,0 +1,88 @@
+body{
+    background: #fff;
+}
+#box1{   
+    position: absolute;
+    border-radius: 50%;         
+    width:15px;
+    height:15px; 
+    background: darkorange;
+    display: none;
+}
+#box2{
+    position: absolute;
+    border-radius: 50%;
+    width:15px;
+    height:15px;
+    background:#4169E1;
+    display: none;
+}
+#people{
+    display: none;
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    background-image: url("./start.jpeg");
+    bottom: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#score{
+    position: absolute;
+    /* display: block; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(247, 89, 89);
+    top: -10px;
+    right: -10px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-style: normal;
+}  
+#jieshao{
+    display: block;
+    width: 350px;
+    height: 450px;
+    /* border: 2px solid goldenrod; */
+    background-color: #fff;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+}  
+#ready{
+    display: block;
+    width:200px;
+    height: 200px;
+    background-image: url(ready.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.readyGoAnimate{
+    animation: animateSuoFang 1s linear infinite;
+    -webkit-animation: animateSuoFang 1s linear infinite;
+}
+@keyframes animateSuoFang{
+    0%{
+        width:200px;
+        height: 200px;
+    }
+    50%{
+        width:150px;
+        height: 150px;
+    }  
+    100%{
+        width:200px;
+        height: 200px;
+    }  
+}
+
+h1{
+    margin-top: 50px;
+}               
+p{
+    font-size: 24px;
+}
